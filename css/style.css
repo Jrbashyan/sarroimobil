@@ -87,9 +87,9 @@ ul li{
 .navpicgrup2{
 	padding: 0 0 0 0;
 }*/
-/*.navpicgrup3{
+.navpicgrup3{
 	padding: 0 0 0 0;
-}*/
+}
 .img-responsive{
 	margin: 15px auto;
 	border-radius: 15px;
@@ -97,4 +97,6 @@ ul li{
 .img-responsive2{
 	margin: 0 auto;
 }
-
+.content{
+	padding: 0;
+}
