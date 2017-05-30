@@ -73,6 +73,11 @@ ul li{
 		padding: 0 5px 0 0;
 	}
 }
+@media(max-width: 1056px){
+	.navbar{
+		margin-top: 15px;
+	}
+}
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
 	border-color: #6FA962;
 }
