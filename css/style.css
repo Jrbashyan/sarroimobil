@@ -23,7 +23,15 @@ ul li{
 .logo{
 	max-width: 100%;
 	height: auto;
+	padding: 0
 	
 }
+@media (max-width: 850px){
+	.logo{
+		width: 150px;
+		height: auto;
+	}
+}
+
 
 
