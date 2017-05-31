@@ -97,8 +97,17 @@ ul li{
 }
 .price{
 	background: #6FA962;
-	text-align: center;
+    text-align: center;
+    padding: 10px 0 10px 0px;
+    color: #fff;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+.inf{
 	padding: 0 0 0 0;
+}
+.inf div{
+	background: #fff;
 }
 .footer-info{
 	text-align: center;
@@ -135,4 +144,17 @@ span{
 	span{
 		display: none;
 	}
+}
+.footbtn{
+	text-align: center;
+	margin: 25px 0 35px 0;
+}
+.btn{
+	border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+    background: #6FA962;
+}
+.btn:hover{
+	box-shadow: 0 3px 12px 0 black;
+	background: #6FA962;
 }
