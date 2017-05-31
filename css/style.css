@@ -15,7 +15,7 @@ ul li{
   src: url('../fonts/OpenSans/OpenSans-Regular.woff');
 }
 .carousel{
-	margin-top: -5%;
+	margin-top: -10%;
 }
 .navbar{
 	z-index: 1000;
@@ -101,9 +101,49 @@ ul li{
 	padding: 0;
 }
 .owlowl{
-	margin: 25px;
-	background: grey;
+	background: #323232;
 }
 .owl-carousel2{
-	padding: 20px;
+	padding: 40px 0 0 0;
+}
+.price{
+	background: #6FA962;
+	text-align: center;
+	padding: 0 0 0 0;
+}
+.footer-info{
+	text-align: center;
+}
+.footer-info h2{
+	border-bottom: 1px solid #6FA962;
+	font-weight: 100;
+	padding-bottom: 20px;
+}
+.comment{
+	background: #F0F0F2;
+	padding: 10px 20px 10px 0px;
+}
+.footer-list li{
+	display: inline;
+}
+.footer-nav{
+	text-align: center;
+	background: #3C3C3C;
+	padding: 7px 0px 1px 0px;
+}
+.footer-list li a{
+	font-size: 11px;
+	color: #fff;
+	font-weight: 600;
+}
+span{
+	color: #fff;
+}
+@media(max-width:768px ){
+	.footer-list li{
+		display: block;
+	}
+	span{
+		display: none;
+	}
 }
